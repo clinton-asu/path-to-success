@@ -1,6 +1,7 @@
 /* CSS BY Clinton Keller */
 
 /* IMPORTED FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
 
 /* CSS RESET (use this RESET: https://meyerweb.com/eric/tools/css/reset/) */
 
@@ -132,4 +133,45 @@ table {
 
 /* ROOT VARIABLES */
 
+:root {
+  --teal: #4ca7c0;
+  --purple: #484fb7;
+  --lavender: #6b8fe7;
+  --yellow: #e9bb57;
+  --pink: #d9526f;
+  --dark-gray: #1e1e1e;
+  --white: #ffffff;
+}
+
 /* GLOBAL STYLES (mobile first/small) */
+
+body {
+  font-family: inter;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: Kavoon;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+nav h2 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.15em;
+}
