@@ -146,7 +146,7 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 
 body {
-  font-family: "inter", sans-serif;
+  font-family: "Inter", sans-serif;
   max-width: 450px;
   margin: 0 auto;
   background-color: var(--lavender);
@@ -185,8 +185,19 @@ p {
   line-height: 1.5;
 }
 
-header {
+header,
+#services,
+#prices,
+footer {
   background-color: var(--purple);
+}
+
+#why-choose-us,
+#cta {
+  background-color: var(--pink);
+}
+
+header {
   text-align: center;
   padding: 30px 40px;
   color: var(--white);
@@ -199,7 +210,7 @@ nav {
 
 nav h2 {
   font-size: 1.5em;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   text-transform: uppercase;
   font-weight: bold;
@@ -225,8 +236,11 @@ main {
   color: var(--white);
 }
 
-#services {
-  background-color: var(--purple);
+#services,
+#why-choose-us,
+#prices,
+#cta,
+footer {
   padding: 20px;
 }
 
@@ -243,11 +257,6 @@ main {
 
 .card p {
   color: var(--dark-gray);
-}
-
-#why-choose-us {
-  background-color: var(--pink);
-  padding: 20px;
 }
 
 #why-choose-us h2 {
@@ -289,11 +298,6 @@ main {
   background-color: var(--white);
 }
 
-#prices {
-  background-color: var(--purple);
-  padding: 20px;
-}
-
 #prices h3 {
   margin: 10px 0;
 }
@@ -319,11 +323,6 @@ main {
   text-align: center;
 }
 
-#cta {
-  background-color: var(--pink);
-  padding: 20px;
-}
-
 #cta a {
   display: block;
   width: 85%;
@@ -340,8 +339,6 @@ main {
 }
 
 footer {
-  background-color: var(--purple);
-  padding: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
